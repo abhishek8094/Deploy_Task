@@ -1,5 +1,6 @@
 import { FaRegCirclePlay } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa6";
+import heroImg from "../../public/hero.svg"
 
 const Hero = () => {
   return (
@@ -19,7 +20,9 @@ const Hero = () => {
           Trusted by over 8M sellers around the world
         </p>
       </div>
-      <div>img</div>
+      <div>
+        <img src={heroImg} alt="" />
+      </div>
     </div>
   );
 };

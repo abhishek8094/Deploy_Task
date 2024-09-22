@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+       "talk-to-sales":"url('https://printify.com/pfh/media/talk-to-sales-N2GDBAGC.svg')",
+      }
+    },
   },
   plugins: [],
 }
