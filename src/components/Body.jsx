@@ -8,16 +8,15 @@ import Store from "./Store";
 
 const Body = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Features />
       <AllProducts />
       <Swiper />
-      <Store/>
-      <Testimonials/>
-      <Financials/>
-      
-    </div>
+      <Store />
+      <Testimonials />
+      <Financials />
+    </>
   );
 };
 

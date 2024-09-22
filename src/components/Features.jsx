@@ -25,12 +25,14 @@ const Features = () => {
     },
   ];
   return (
-    <div className="w-[100%] h-[400px] border-2 p-16 flex">
+    <div className="w-[100%] h-[400px] p-16 flex">
       {FeaturesList.map((featurelist, id) => (
         <div key={id} className="p-12">
           <img src={featurelist.image} alt="img" className="w-28" />
-          <h1 className="text-black py-4 font-bold text-xl leading-tight">{featurelist.title}</h1>
-          <p>{featurelist.description}</p>
+          <h1 className="text-[#17262b] pt-10 font-bold text-2xl leading-tight">
+            {featurelist.title}
+          </h1>
+          <p className="pt-8 text-[#485256] font-semibold">{featurelist.description}</p>
         </div>
       ))}
     </div>

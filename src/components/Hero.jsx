@@ -4,9 +4,9 @@ import heroImg from "../../public/hero.svg"
 
 const Hero = () => {
   return (
-    <div className="flex relative top-28 justify-between p-10">
+    <div className="flex relative top-28 justify-between p-12">
       <div className="py-20 w-[400px]">
-        <h1 className="text-[#17262b] text-5xl leading-16 tracking-tighter font-bold">Create and sell custom products</h1>
+        <h1 className="text-[#17262b] text-5xl leading-tight tracking-wide font-bold ">Create and sell custom products</h1>
         <ul className="p-8">
           <li className="flex items-center"><FaCheck className="text-[#39b75d] h-8"/> <span className="px-2">100% Free to use</span></li>
           <li className="flex items-center"><FaCheck className="text-[#39b75d] h-8"/> <span className="px-2">900+ High-Quality Products</span></li>
@@ -20,9 +20,10 @@ const Hero = () => {
           Trusted by over 8M sellers around the world
         </p>
       </div>
-      <div>
-        <img src={heroImg} alt="" />
-      </div>
+         <div className="realtive left-8">
+        <img src={heroImg} alt="" className="" />
+        <img src="	https://printify.com/pfh/assets/animations/images/img_5.png" alt=""  className="w-60 h-60 relative bottom-[420px] left-4"/>
+        </div>
     </div>
   );
 };

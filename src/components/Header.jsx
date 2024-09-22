@@ -3,7 +3,7 @@ import { FaCaretDown } from "react-icons/fa";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between p-4 fixed w-[100%] shadow-md  ">
+      <div className="flex justify-between p-4 fixed w-[100%] bg-[#fff] shadow-md z-30 ">
         <div className="w-[150px]">
           <img
             src="https://printify.com/pfh/media/logo-old-B5JY5YNQ.svg"
